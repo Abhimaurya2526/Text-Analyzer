@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Header.css */
+
+/* Styles for screens with a maximum width of 767px (typical mobile/tab views) */
+@media (max-width: 767px) {
+ 
+}
+
+/* Styles for screens with a minimum width of 768px (typical desktop views) */
+@media (min-width: 768px) {
+    .header{
+        display: flex;
+        flex-direction: row;
+    }
+    .header  button{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}

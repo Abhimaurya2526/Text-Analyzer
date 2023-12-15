@@ -1,0 +1,29 @@
+
+
+.home {
+    margin-top: 20px;
+    margin-left: 9px;
+} 
+
+.home h2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section {
+    display: flex;
+}
+
+.section p {
+    flex: 1;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.home.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  
+  
