@@ -25,8 +25,8 @@ function App() {
       <BrowserRouter>
         <Header mode={mode} toggle={toggle} />
         <Routes>
-          <Route element={<Editor mode={mode}/>} path="editor" />
-          <Route element={<Home mode={mode}/>} path="/" />
+          <Route element={<Editor mode={mode}/>} path="/" />
+          <Route element={<Home mode={mode}/>} path="editor" />
         </Routes>
       </BrowserRouter>
     </div>
