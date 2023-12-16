@@ -6,7 +6,7 @@ const Header = (props) => {
     <div className="header">
       <nav className={`navbar navbar-expand-lg bg-body-tertiary bg-${props.mode}`}>
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/">
+          <NavLink className="navbar-brand" to="">
             Text Analyzer
           </NavLink>
           <button
@@ -23,12 +23,12 @@ const Header = (props) => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink className="nav-link" activeClassName="active" exact to="/editor">
+                <NavLink className="nav-link" activeClassName="active" exact to="/">
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" activeClassName="active" exact to="/about">
+                <NavLink className="nav-link" activeClassName="active" exact to="/editor">
                   About
                 </NavLink>
               </li>
